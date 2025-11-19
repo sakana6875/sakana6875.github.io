@@ -24,8 +24,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "© 2025 MiaoBolo",
-  displayFooter: true,
+  // footer: "© 2025 MiaoBolo",
+  // displayFooter: true,
 
   // 博客相关
   blog: {
