@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: 喵波隆的摸鱼笔记
-heroImage: /assets/images/kon!.jpg
+bgImage: /assets/images/kon!.jpg
 heroText: 喵波隆的摸鱼笔记
 heroFullScreen: true
 tagline: 良机一直都挂在你眼前
