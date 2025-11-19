@@ -1,14 +1,15 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "dependencies": {
-    "vuepress": "^2.0.0-rc.26"
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:build": "vuepress-vite build docs",
+    "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
+    "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.26",
-    "@vuepress/theme-default": "^2.0.0-rc.118",
-    "sass-embedded": "^1.93.3"
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "sass-embedded": "^1.93.2",
+    "vuepress": "2.0.0-rc.26",
+    "vue": "^3.5.22",
+    "vuepress-theme-hope": "2.0.0-rc.98"
   }
 }
