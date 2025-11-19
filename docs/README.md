@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: D:\Dev\sakana6875.github.io\docs\.vuepress\public\assets\images\kon!.jpg
+heroImage: /assets/images/kon!.jpg
 heroText: 喵波隆的摸鱼笔记
 heroFullScreen: true
 tagline: 良机一直都挂在你眼前

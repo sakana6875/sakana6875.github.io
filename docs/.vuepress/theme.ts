@@ -11,9 +11,9 @@ export default hopeTheme({
     url: "https://github.com/sakana6875",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/Roxy.jpg",
 
-  repo: "https://github.com/sakana6875/sakana6875.github.io",
+  //repo: "https://github.com/sakana6875/sakana6875.github.io",
 
   //docsDir: "src",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "@2025 MiaoBolo",
+  footer: "© 2025 MiaoBolo",
   displayFooter: true,
 
   // 博客相关
