@@ -1,24 +1,8 @@
 // place your custom styles here
-// 自定义 hero 图样式
+.vp-blog-hero-title {
+    color: black;
+}
 
-// 自定义 hero 区域
-.hero {
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  padding: 0;
-
-  // 如果用了背景图
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/images/kon!.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+.vp-blog-hero-description {
+    color: black;
 }
