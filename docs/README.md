@@ -16,12 +16,12 @@ projects:
   - icon: book
     name: 学习记录
     desc: 技术学习ing
-    link: https://链接地址
+    link: /category/study/
 
   - icon: heart
     name: 生活分享
     desc: 生活随笔记录
-    link: https://你的书籍链接
+    link: /category/life
 
 footer: © 2025 MiaoBolo | 计算机小白菜鸟
 ---

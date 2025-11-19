@@ -34,6 +34,8 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/sakana6875",
     },
+    // @ts-ignore 忽略类型检查
+  posts: ["posts/"],
   },
 
   // 加密配置
