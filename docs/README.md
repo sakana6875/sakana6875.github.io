@@ -22,7 +22,5 @@ projects:
     name: 生活分享
     desc: 生活随笔记录
     link: /category/life
-
-footer: © 2025 MiaoBolo | 计算机小白菜鸟
 ---
 
