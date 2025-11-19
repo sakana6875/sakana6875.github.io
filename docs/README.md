@@ -3,42 +3,27 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroImage: D:\Dev\sakana6875.github.io\docs\.vuepress\public\assets\images\kon!.jpg
+heroText: 喵波隆的摸鱼笔记
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 良机一直都挂在你眼前
 projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
-
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: github
+    name: GitHub
+    desc: 空空的没什么好看
+    link: https://github.com/sakana6875
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+    name: 学习记录
+    desc: 技术学习ing
+    link: https://链接地址
+
+  - icon: heart
+    name: 生活分享
+    desc: 生活随笔记录
     link: https://你的书籍链接
 
-  - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+footer: © 2025 MiaoBolo | 计算机小白菜鸟
 ---
 
 这是一个博客主页的案例。

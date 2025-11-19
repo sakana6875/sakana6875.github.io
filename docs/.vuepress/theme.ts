@@ -4,18 +4,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://sakana6875.github.io/",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "MiaoBolo",
+    url: "https://github.com/sakana6875",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/sakana6875/sakana6875.github.io",
 
-  docsDir: "src",
+  //docsDir: "src",
 
   // 导航栏
   navbar,
@@ -24,66 +24,32 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "@2025 MiaoBolo",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
+    description: "计算机小白菜鸟",
+    //intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      GitHub: "https://github.com/sakana6875",
     },
   },
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": {
+  //       hint: "Password: 1234",
+  //       password: "1234",
+  //     },
+  //   },
+  // },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // metaLocales: {
+  //   editLink: "在 GitHub 上编辑此页",
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -94,7 +60,7 @@ export default hopeTheme({
     attrs: true,
     codeTabs: true,
     component: true,
-    demo: true,
+    //demo: true,
     figure: true,
     gfm: true,
     imgLazyload: true,
@@ -103,24 +69,24 @@ export default hopeTheme({
     mark: true,
     plantuml: true,
     spoiler: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
+    // stylize: [
+    //   {
+    //     matcher: "Recommended",
+    //     replacer: ({ tag }) => {
+    //       if (tag === "em")
+    //         return {
+    //           tag: "Badge",
+    //           attrs: { type: "tip" },
+    //           content: "Recommended",
+    //         };
+    //     },
+    //   },
+    // ],
     sub: true,
     sup: true,
     tabs: true,
     tasklist: true,
-    vPre: true,
+    //vPre: true,
 
     // 取消注释它们如果你需要 TeX 支持
     // math: {
