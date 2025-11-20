@@ -21,6 +21,6 @@ projects:
   - icon: heart
     name: 生活分享
     desc: 生活随笔记录
-    link: /category/life
+    link: /category/life/
 ---
 
