@@ -21,7 +21,7 @@ export default hopeTheme({
   navbar,
 
   // 侧边栏
-  sidebar,
+  //sidebar,
 
   // 页脚
     // footer: "© 2025 MiaoBolo",
