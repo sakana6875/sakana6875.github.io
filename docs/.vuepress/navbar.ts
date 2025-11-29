@@ -18,6 +18,12 @@ export default navbar([
     text: "生活分享",
     icon: "heart",
     link: "/category/life/",
+  },
+
+  {
+    text: "技术分享",
+    icon: "graduation-cap",
+    link: "/category/technology/"
   }
 
 ]);

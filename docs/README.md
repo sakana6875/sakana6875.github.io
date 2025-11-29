@@ -22,5 +22,10 @@ projects:
     name: 生活分享
     desc: 生活随笔记录
     link: /category/life/
+
+  - icon: graduation-cap
+    name: 技术分享
+    desc: 学习成果展示
+    link: /category/technology/
 ---
 
