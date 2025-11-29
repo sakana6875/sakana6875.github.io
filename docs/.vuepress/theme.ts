@@ -145,6 +145,21 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
 
+      comment: {
+      provider: "Giscus",
+      repo: "sakana6875/sakana6875.github.io",
+      repoId: "R_kgDOQWIzkQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOQWIzkc4CzLcM",
+      mapping: "pathname",
+      strict: false, // 对应 data-strict="0"
+      reactionsEnabled: true, // 对应 data-reactions-enabled="1"
+      //emitMetadata: false, // 对应 data-emit-metadata="0"
+      inputPosition: "bottom", // 对应 data-input-position="bottom"
+      //theme: "dark_protanopia",
+      //lang: "zh-CN",
+    },
+
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
